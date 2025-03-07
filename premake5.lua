@@ -1,6 +1,3 @@
-workspace("Test")
-configurations { "Debug", "Release" }
-
 project("ImGuizmo")
 kind("StaticLib")
 language("C")
@@ -11,8 +8,8 @@ targetdir("bin/%{prj.name}")
 objdir("bin-int/%{prj.name}")
 
 files({
-    "ImGuizmo.h",
-    "ImGuizmo.cpp",
+   "ImGuizmo.h",
+   "ImGuizmo.cpp",
 })
 includedirs({})
 
