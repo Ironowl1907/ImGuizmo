@@ -11,7 +11,7 @@ files({
    "ImGuizmo.h",
    "ImGuizmo.cpp",
 })
-includedirs({})
+includedirs({ "../imgui/" })
 
 filter("system:linux")
 pic("On")
