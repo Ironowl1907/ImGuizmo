@@ -8,10 +8,12 @@ targetdir("bin/%{prj.name}")
 objdir("bin-int/%{prj.name}")
 
 files({
-   "ImGuizmo.cpp"
+   "ImGuizmo.cpp",
+   "ImGuizmo.h"
+
 })
 links({ "ImGui" })
-includedirs({ "imgui" })
+includedirs({ "../imgui" })
 
 filter("system:linux")
 pic("On")
